@@ -120,7 +120,6 @@ export TERMINAL="kitty"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 printf "\n\n\n\n"
-alias e="emacsclient -c -a ''"
 export PATH="$PATH:/home/specter/.config/v-analyzer/bin"
 alias ls="eza --icons=always --git"
 alias cat="bat"
@@ -128,7 +127,6 @@ alias grep="rg"
 alias fetch="noorfetch"
 
 export PATH=$PATH:/home/specter/.spicetify
-export GEMINI_API_KEY="AQ.Ab8RN6LSxtF0VTJVOzyZBFQ38NjVhrM0KRilD7Kos8kbD3zY6A"
 # Arch Linux System Update with Automatic Manual Btrfs Snapshot
 alias sysup='sudo btrfs subvolume snapshot / "/.root_snapshot_$(date +%Y%m%d_%H%M%S)" && yay -Syu'
 
@@ -138,4 +136,3 @@ export PATH=/home/specter/.opencode/bin:$PATH
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/specter/.lmstudio/bin"
 # End of LM Studio CLI section
-
