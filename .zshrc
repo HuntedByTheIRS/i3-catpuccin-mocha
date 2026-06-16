@@ -126,13 +126,5 @@ alias cat="bat"
 alias grep="rg"
 alias fetch="noorfetch"
 
-export PATH=$PATH:/home/specter/.spicetify
 # Arch Linux System Update with Automatic Manual Btrfs Snapshot
 alias sysup='sudo btrfs subvolume snapshot / "/.root_snapshot_$(date +%Y%m%d_%H%M%S)" && yay -Syu'
-
-# opencode
-export PATH=/home/specter/.opencode/bin:$PATH
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/specter/.lmstudio/bin"
-# End of LM Studio CLI section
